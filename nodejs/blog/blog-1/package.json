@@ -1,0 +1,21 @@
+{
+  "name": "blog-1",
+  "version": "1.0.0",
+  "description": "1.从0开始 不使用任何框架\r 2.nodemon检测文件变化，自动重启node\r 3.cross-env设置环境变量，兼容mac linux和windows",
+  "main": "app.js",
+  "bin": {
+    "blog-1": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6"
+  }
+}
