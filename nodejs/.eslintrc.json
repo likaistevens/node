@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+    "space-before-function-paren": [2, "never"],
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "never"],
+    "class-methods-use-this": "off",
+    "no-plusplus": "off",
+    "max-len": ["error", { "code": 200 }],
+    "object-curly-newline": "off",
+    "lines-between-class-members": "off",
+    "no-param-reassign": "off",
+    "import/prefer-default-export": "off",
+    "no-empty-function": "off",
+    "import/no-dynamic-require": "off",
+    "global-require": "off",
+    "import/no-cycle": "off",
+    "vue/max-attributes-per-line": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "no-unused-vars": "off"
+    }
+}
